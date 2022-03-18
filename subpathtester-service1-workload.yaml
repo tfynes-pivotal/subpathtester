@@ -9,10 +9,10 @@ metadata:
   namespace: default
 spec:
   source:
-    subPath: service1
     git:
       ref:
         branch: main
       url: https://github.com/tfynes-pivotal/subpathtester
+    subPath: "service1"
 status:
   supplyChainRef: {}
